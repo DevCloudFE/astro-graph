@@ -1,3 +1,22 @@
+Astro Graph
+=======
+astro-graph is a fully client side JavaScript diagramming library forked from mxGraph.
+
+`astro-graph` is the successor of mxGraph which is now end of life. At first, we will keep the same feature with `mxGraph` and add some types support.
+
+- maintained npm package
+- bugs fixed
+- Vulnerabilities fixed
+
+New features will follow in the future versions.
+
+And we will extend some plugins like `animation`, `draw shape`, `smart drag&drop` and so on for you to use.
+
+Coming Soon!!
+
+Original Readme Below
+=======
+
 *NOTE 09.11.2020* : Development on mxGraph has now stopped, this repo is effectively end of life.
 
 Known forks:

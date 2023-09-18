@@ -1,8 +1,8 @@
 {
-  "name": "mxgraph",
-  "description": "mxGraph is a fully client side JavaScript diagramming library that uses SVG and HTML for rendering.",
-  "version": "4.2.2",
-  "homepage": "https://github.com/jgraph/mxgraph",
+  "name": "@devui-design/astro-graph",
+  "description": "astro-graph is a fully client side JavaScript diagramming library forked from mxGraph",
+  "version": "0.0.1-rc.1",
+  "homepage": "https://github.com/DevCloudFE/astro-graph",
   "author": {
     "name": "JGraph Ltd",
     "email": "support@jgraph.com"
@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgraph/mxgraph.git"
+    "url": "git+https://github.com/DevCloudFE/astro-graph.git"
   },
   "bugs": {
     "url": "https://github.com/jgraph/mxgraph/issues"
