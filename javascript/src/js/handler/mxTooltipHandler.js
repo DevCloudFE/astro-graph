@@ -288,7 +288,7 @@ mxTooltipHandler.prototype.hideTooltip = function()
 	if (this.div != null)
 	{
 		this.div.style.visibility = 'hidden';
-		this.div.innerHTML = '';
+		this.div.innerText = '';
 	}
 };
 
@@ -317,11 +317,11 @@ mxTooltipHandler.prototype.show = function(tip, x, y)
 
 		if (!mxUtils.isNode(tip))
 		{	
-			this.div.innerHTML = tip.replace(/\n/g, '<br>');
+			this.div.innerText = tip.replace(/\n/g, '<br>');
 		}
 		else
 		{
-			this.div.innerHTML = '';
+			this.div.innerText = '';
 			this.div.appendChild(tip);
 		}
 		
