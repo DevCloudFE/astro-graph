@@ -3,3 +3,4 @@ javascript/dist
 .jshintrc
 javascript/examples/**/dist
 .idea/
+package-lock.json

@@ -1,0 +1,27 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"module": "es6",
+		"target": "es5",
+		"outDir": "./javascript/output",
+		"rootDir": "./javascript",
+		"sourceMap": false,
+		"declaration": true,
+		"downlevelIteration": true,
+		"lib": [
+			"dom",
+			"es6",
+			"es2017.object"
+		]
+	},
+	"include": [
+		"./**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"*.test.ts"
+	]
+}

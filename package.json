@@ -1,7 +1,7 @@
 {
   "name": "@devui-design/astro-graph",
   "description": "astro-graph is a fully client side JavaScript diagramming library forked from mxGraph",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.1",
   "homepage": "https://github.com/DevCloudFE/astro-graph",
   "author": {
     "name": "JGraph Ltd",
@@ -17,14 +17,19 @@
   },
   "main": "./javascript/dist/build.js",
   "scripts": {
-    "prepare": "grunt build --base ./ --gruntfile etc/build/Gruntfile.js"
+    "build": "rollup -c"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-webpack": "^2.0.1",
     "load-grunt-tasks": "^3.5.2",
+    "rollup": "^3.29.2",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
     "webpack": "^2.2.1"
   }
 }
