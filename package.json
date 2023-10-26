@@ -17,11 +17,14 @@
   },
   "main": "./javascript/dist/build.js",
   "scripts": {
-    "build": "rollup -c"
+    "build-client": "rollup -c rollup.config.mjs",
+    "build-plugins": "rollup -c rollup.config.ts.mjs"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
     "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@rollup/plugin-multi-entry": "^6.0.1",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",

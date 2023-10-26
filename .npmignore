@@ -12,6 +12,7 @@ docs/
 dotnet/
 index.html
 java/
+etc/
 javascript/debug/
 javascript/devel/
 javascript/examples/
@@ -20,3 +21,6 @@ mxgraph-dotnet.*suo
 php/
 pom.xml
 target
+rollup.config.mjs
+rollup.config.ts.mjs
+tsconfig.json
