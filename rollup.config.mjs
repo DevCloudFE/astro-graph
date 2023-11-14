@@ -17,7 +17,8 @@ export default {
 			plugins: [terser()]
 		}
 	],
-	plugins: [handleDependencies()]
+	plugins: [handleDependencies()],
+	treeshake: false
 }
 
 function handleDependencies() {
@@ -49,6 +50,8 @@ function combineDependencies(dependencies) {
 
 		code += content;
 	}
+
+	code = code.replace(/mxClient\.include\([^"']+["'](.*?)["'][)];?\n?/gi, '');
 
 	return code;
 }

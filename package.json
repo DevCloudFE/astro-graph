@@ -1,7 +1,7 @@
 {
   "name": "@devui-design/astro-graph",
   "description": "astro-graph is a fully client side JavaScript diagramming library forked from mxGraph",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/DevCloudFE/astro-graph",
   "author": {
     "name": "JGraph Ltd",
