@@ -15,7 +15,12 @@ export default {
 			format: 'cjs',
 			strict: false,
 			plugins: [terser()]
-		}
+		},
+    {
+      file: 'javascript/mermaid.min.js',
+      format: 'cjs',
+      strict: false,
+    },
 	],
 	plugins: [handleDependencies()],
 	treeshake: false
